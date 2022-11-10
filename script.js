@@ -24,3 +24,13 @@ prev.addEventListener('click', () => {
 
     loading()
 })
+
+function loading() {
+    numbers.forEach((number, idNumber) => {
+        if (idNumber < activeNumber) {
+            number.classList.add('active')
+        } else {
+            number.classList.remove('active')
+        }
+    })
+}
