@@ -6,6 +6,19 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.container {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+}
+
+.progress {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 30px;
+}
+
 .number {
     display: flex;
     border-radius: 50%;
@@ -15,4 +28,14 @@ body {
     height: 40px;
     width: 40px;
     border: 5px dotted coral;
+}
+
+.button {
+    margin: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: coral;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px 20px;
 }
