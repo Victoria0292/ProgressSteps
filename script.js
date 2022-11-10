@@ -14,3 +14,13 @@ next.addEventListener('click', () => {
 
     loading()
 })
+
+prev.addEventListener('click', () => {
+    activeNumber--
+
+    if (activeNumber < 1) {
+        activeNumber = 1
+    }
+
+    loading()
+})
